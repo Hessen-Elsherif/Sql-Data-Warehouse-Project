@@ -51,6 +51,7 @@ CREATE TABLE bronze.crm_sales_details (
     sls_order_dt        int,
     sls_ship_dt         int,
     sls_due_dt          int,
+    sls_sales           int,
     sls_quantity        int,
     sls_price           NVARCHAR(50)
   );
